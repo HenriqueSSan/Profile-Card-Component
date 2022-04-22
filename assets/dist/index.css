@@ -19,22 +19,22 @@ img {
   height: 100%;
 }
 .main .root .root__container {
-  position: relative;
   width: 100%;
   height: 100%;
+  position: relative;
   overflow: hidden;
 }
 
 .root {
-  position: relative;
   background-color: #19a2ae;
+  position: relative;
 }
 .root .root__container {
   overflow-x: hidden;
 }
 .root .root__pattern {
-  position: absolute;
   max-width: 55%;
+  position: absolute;
   z-index: 0;
 }
 @media screen and (min-width: 867px) {
@@ -66,10 +66,10 @@ img {
 }
 
 .card {
+  background-color: white;
   position: absolute;
   border-radius: 15px;
   z-index: 100;
-  background-color: white;
 }
 .card .card__container {
   position: relative;
@@ -90,12 +90,12 @@ img {
 }
 
 .card__data {
+  background-color: white;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 100%;
   border-radius: 15px;
-  background-color: white;
   font-family: "Kumbh Sans", sans-serif;
 }
 .card__data .card__image-user {
@@ -110,21 +110,21 @@ img {
 
 .card__user {
   width: 100%;
-  position: relative;
   padding-top: 4.5rem;
   padding-bottom: 1.5rem;
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  gap: 0.5rem;
   text-align: center;
   font-size: 1.125rem;
-  gap: 0.5rem;
 }
 .card__user .card__title {
   display: flex;
+  align-items: center;
   justify-content: center;
   gap: 0.75rem;
-  align-items: center;
 }
 .card__user .card__title .card__age-user {
   color: #969696;
@@ -133,31 +133,31 @@ img {
   color: #969696;
 }
 .card__user::after {
+  background-color: rgba(0, 0, 0, 0.105);
   content: "";
   width: 100%;
   height: 1px;
   position: absolute;
-  bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.105);
+  bottom: 0;
 }
 
 .card__status {
   width: 100%;
-  display: flex;
   padding: 1.5rem 2rem;
+  display: flex;
   font-size: 1.125rem;
 }
 .card__status .card__list {
-  list-style: none;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  list-style: none;
 }
 .card__status .card__list .card__item {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   gap: 0.5rem;
   text-align: center;
 }
